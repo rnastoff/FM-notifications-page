@@ -1,0 +1,169 @@
+.notification {
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.notificationNew {
+  background: #f6fafd;
+}
+
+.notificationBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  margin: 0;
+}
+
+.profilePhoto {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.profilePhoto img {
+  width: 46px;
+}
+
+.message {
+  font-size: 16px;
+  width: 547px;
+}
+
+.messageComment {
+  font-size: 16px;
+  width: 360px;
+}
+
+.messageAndTime {
+  margin-left: 20px;
+}
+
+.name {
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.time {
+  color: hsl(219, 14%, 63%);
+  margin-top: 2px;
+}
+
+.newDot {
+  background: hsl(1, 90%, 64%);
+  border-radius: 10px;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+}
+
+/*  */
+span {
+  color: hsl(219, 12%, 42%);
+}
+
+.reactText {
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.reactText:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.groupText {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.privateMessage {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10 0px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.privateMessage p {
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 35px;
+  padding: 15px;
+  width: 540px;
+}
+
+.privateMessage p:hover {
+  background: #e5eff9;
+}
+
+.commentPicture {
+  margin-right: 20px;
+}
+
+.commentPicture img {
+  width: 50px;
+}
+
+/*  */
+
+/********************************MEDIA QUERY  ********************************/
+@media (max-width: 755px) {
+  .notification {
+    padding: 15px;
+  }
+  .profilePhoto img {
+    width: 40px;
+  }
+
+  .message {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .messageComment {
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .time {
+    font-size: 14px;
+  }
+
+  .commentPicture img {
+    width: 40px;
+  }
+
+  .privateMessage {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .privateMessage p {
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 0px;
+    padding: 15px;
+    width: 260px;
+  }
+}
